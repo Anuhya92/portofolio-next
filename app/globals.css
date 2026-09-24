@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #141B2E;   /* ← match this to `bg` above */
+  color: #E8ECF4;
+}
+
+::selection {
+  background-color: #22D3EE;
+  color: #0A0F1C;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid #22D3EE;
+  outline-offset: 3px;
+}
+
+@keyframes caret-blink {
+  0%, 45% { opacity: 1; }
+  50%, 95% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.animate-caret {
+  animation: caret-blink 1s steps(1) infinite;
+}
