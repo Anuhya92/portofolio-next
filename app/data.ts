@@ -9,16 +9,32 @@ export const profile = {
   resume: "/anuhya-talamanchi-cv.pdf",
 };
 
-export const bio = `I'm a recent graduate and a mother of two, building a second career in software after a decade with a background in electronics and communication engineering. Over the past year I've worked through a full-stack program in Sweden — first the frontend, then the backend — and I'm now looking for a junior fullstack role where I can turn that groundwork into real, shipped work. I learn fast, I show up for my team, and I don't rattle easily.`;
+export const bio =
+  "After a decade in electronics and communication engineering, I made the leap into software. I'm currently building a second career while raising two kids — and over the past year I've worked through a full-stack program in Sweden, first the frontend, then the backend. I'm now looking for a junior fullstack role where I can turn that groundwork into real, shipped work. I learn fast, I show up for my team, and I don't rattle easily.";
 
 export const skillGroups = [
   {
     label: "Interface",
-    items: ["HTML", "CSS", "Tailwind CSS", "JavaScript", "TypeScript", "React", "Next.js"],
+    items: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+    ],
   },
   {
     label: "Server & data",
-    items: ["Node.js", "Express", "REST APIs", "Swagger", "PostgreSQL", "Supabase"],
+    items: [
+      "Node.js",
+      "Express",
+      "REST APIs",
+      "Swagger",
+      "PostgreSQL",
+      "Supabase",
+    ],
   },
   {
     label: "Quality & workflow",
@@ -47,18 +63,19 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: "Stockholm Games",
-    description: "A first project exploring page structure and styling — building layout and visual design skills in plain HTML and CSS.",
+    description:
+      "A first project exploring page structure and styling — building layout and visual design skills in plain HTML and CSS.",
     tech: ["HTML", "CSS"],
     liveUrl: "https://stockholm-games.vercel.app/",
     repoUrl: "https://github.com/Anuhya92/StockholmGames",
     tag: "Solo",
     icon: "🎮",
     image: "/projects/stockholmGame.jpg",
-  
   },
   {
     title: "Word Detective Game",
-    description: "A browser word-guessing game built to practice DOM manipulation and game-state logic in plain JavaScript.",
+    description:
+      "A browser word-guessing game built to practice DOM manipulation and game-state logic in plain JavaScript.",
     tech: ["HTML", "CSS", "JavaScript"],
     liveUrl: "https://word-detective-game.vercel.app/",
     repoUrl: "https://github.com/Anuhya92/Word-Detective-Game",
@@ -68,7 +85,8 @@ export const projects: Project[] = [
   },
   {
     title: "Animal Zoo",
-    description: "A group assignment building a zoo animal directory, splitting components and features across the team.",
+    description:
+      "A group assignment building a zoo animal directory, splitting components and features across the team.",
     tech: ["React"],
     liveUrl: "https://fg-animal-zoo-group-assignment.vercel.app/",
     repoUrl: "https://github.com/SuneethaBandaru/FG-AnimalZoo-GroupAssignment",
@@ -76,10 +94,11 @@ export const projects: Project[] = [
     icon: "🦁",
     image: "/projects/animal-zoo.jpg",
   },
-  
+
   {
     title: "Pokémon Explorer",
-    description: "A pair-programmed Pokémon browser, built together with a classmate to practice working in someone else's code.",
+    description:
+      "A pair-programmed Pokémon browser, built together with a classmate to practice working in someone else's code.",
     tech: ["React", "PokéAPI"],
     liveUrl: "https://pokemon-explorer-gamma-umber.vercel.app/",
     repoUrl: "https://github.com/sowjanya-gangisetty/pokemon_explorer",
@@ -89,7 +108,8 @@ export const projects: Project[] = [
   },
   {
     title: "Willys Store",
-    description: "A grocery-store storefront clone with an Express/Node.js backend behind the product listings and layout.",
+    description:
+      "A grocery-store storefront clone with an Express/Node.js backend behind the product listings and layout.",
     tech: ["HTML", "CSS", "JavaScript", "Express", "Node.js"],
     liveUrl: "https://willys-store.vercel.app/",
     tag: "Solo",
@@ -98,7 +118,8 @@ export const projects: Project[] = [
   },
   {
     title: "Indian Bistro",
-    description: "A restaurant website with a menu and info pages, backed by an Express/Node.js server — built with a team.",
+    description:
+      "A restaurant website with a menu and info pages, backed by an Express/Node.js server — built with a team.",
     tech: ["Next.js", "React", "Express", "Node.js"],
     liveUrl: "https://indian-bistro.vercel.app/",
     repoUrl: "https://github.com/smitaisverige/indian_bistro",
@@ -108,7 +129,8 @@ export const projects: Project[] = [
   },
   {
     title: "Animal Explorer",
-    description: "A course assignment building a browsable animal catalog with filtering and detail views.",
+    description:
+      "A course assignment building a browsable animal catalog with filtering and detail views.",
     tech: ["React"],
     liveUrl: "https://assignment-animal-explorer.vercel.app/",
     tag: "Assignment",
@@ -117,7 +139,8 @@ export const projects: Project[] = [
   },
   {
     title: "Weather App",
-    description: "A weather lookup app built with Material UI, fetching live conditions from a public weather API.",
+    description:
+      "A weather lookup app built with Material UI, fetching live conditions from a public weather API.",
     tech: ["React", "Material UI", "REST API"],
     liveUrl: "https://weather-mui.vercel.app/",
     tag: "Solo",
@@ -136,7 +159,8 @@ export const projects: Project[] = [
   },
   {
     title: "HSS Scouterna",
-    description: "A real-time client project delivered for an actual organization over two months — the team's biggest test of working from real requirements, on a deadline, with a live client.",
+    description:
+      "A real-time client project delivered for an actual organization over two months — the team's biggest test of working from real requirements, on a deadline, with a live client.",
     tech: ["React", "Next.js", "Node.js"],
     liveUrl: "https://hss-scouterna.vercel.app/",
     repoUrl: "https://github.com/Busanz/hss_scouterna",
@@ -146,7 +170,8 @@ export const projects: Project[] = [
   },
   {
     title: "Product Catalog",
-    description: "A product catalog built with an emphasis on test coverage — unit and integration tests alongside the UI.",
+    description:
+      "A product catalog built with an emphasis on test coverage — unit and integration tests alongside the UI.",
     tech: ["React", "Testing", "Integration testing"],
     liveUrl: "https://product-cata-log-testing-anuhya-khaki.vercel.app/",
     tag: "Solo",
@@ -155,7 +180,8 @@ export const projects: Project[] = [
   },
   {
     title: "Recipe Explorer",
-    description: "A recipe search and browsing app built on top of TheMealDB API, with search and detail views.",
+    description:
+      "A recipe search and browsing app built on top of TheMealDB API, with search and detail views.",
     tech: ["React", "TheMealDB API"],
     liveUrl: "https://recipe-mealdb-five.vercel.app/",
     tag: "Solo",
