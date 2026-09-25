@@ -53,7 +53,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/Anuhya92/StockholmGames",
     tag: "Solo",
     icon: "🎮",
-    image: "/projects/StockholmGame.jpg",
+    image: "/projects/stockholmGame.jpg",
   
   },
   {

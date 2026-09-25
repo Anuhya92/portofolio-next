@@ -13,7 +13,7 @@ export default function Hero() {
         aria-hidden
       />
 
-      <div className="relative mx-auto grid max-w-5xl gap-12 px-6 pb-20 pt-16 sm:grid-cols-[1.2fr_1fr] sm:items-center sm:pb-28 sm:pt-20">
+      <div className="relative mx-auto grid max-w-5xl gap-12 px-6 pb-12 pt-16 sm:grid-cols-[1.2fr_1fr] sm:items-center sm:pb-16 sm:pt-20">
         <div>
           <p className="font-mono text-sm text-cyan">
             status: open to junior fullstack roles
