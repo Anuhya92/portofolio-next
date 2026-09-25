@@ -1,7 +1,7 @@
 export const profile = {
   name: "Anuhya Talamanchi",
   role: "Junior Fullstack Developer",
-  location: "Helsingborg, Sweden",
+  location: "Stockholm, Sweden",
   email: "anuhya92@gmail.com",
   phone: "+46 76 432 4928",
   linkedin: "https://www.linkedin.com/in/anuhya-talamanchi-376a48263/",
